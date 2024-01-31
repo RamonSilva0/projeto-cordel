@@ -20,7 +20,7 @@ html, body{
     padding:0px;
 }
 
-a , footer{
+a{
     text-decoration: none;
     color:white;
     font-weight: bold;
@@ -90,4 +90,11 @@ section#img01{
 section#img02{
     background-image: url(../imagens/background002.jpg);
     background-position: center center;
+}
+
+footer{
+    background-color: black;
+    padding: 5px;
+    text-align: center;
+    color: white;
 }
