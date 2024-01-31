@@ -1,0 +1,138 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+*{   
+    margin: 0px;
+    padding:0px;
+}
+
+header{
+    background-color: black;
+    color: white;
+    height: 330px;
+    margin-bottom: 80px;
+}
+a{
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+header > h1{
+    margin:0px;
+    font-size: 11em;
+    font-family: 'Passion One';
+    text-align: center;
+    padding-top:50px;
+    font-variant: small-caps;
+}
+header > p{
+    text-align: center;
+    font-size: 16px;
+    padding-bottom: 50px;
+    font-family: verdana, sans-serif;
+
+    
+}
+
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+}
+
+main{
+    font-family: 'Sriracha', cursive;
+}
+
+.{
+    display: block;
+    font-size:4.2em;
+    padding-left: 25px;
+    line-height: 140px;
+}
+.estrofe1 > p{
+    margin:0px;
+    margin-bottom: 3em;
+    padding: 10px;
+}
+
+.estrofe2{
+    font-size:4.2em;
+    text-indent: 25px;
+    background-image: url(imagens/background001.jpg);
+    color: white;
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.estrofe2 > p{
+    display: inline-block;
+    background-color: #000a00;
+    margin-top: 90px ;
+    margin-bottom: 95px;
+}
+
+.estrofe3{
+    font-size:4.2em;
+    padding-left: 25px;   
+    line-height: 140px;
+}
+.estrofe3 > p{
+    margin-bottom: 140px;
+}
+
+.estrofe4{
+    font-size:4.2em;
+    padding-left: 25px;
+    line-height: 140px;
+    
+}
+
+.estrofe5{
+    font-size:4.2em;
+    padding-left: 25px;
+    background-image: url(imagens/background002.jpg);
+    background-attachment: fixed;
+    background-position: center center;
+    color: white;
+    background-repeat: no-repeat;
+}
+.estrofe5 > p{
+    display: inline-block;
+    background-color: #181a169f;
+    padding: 5px;
+    margin-bottom: 90px;
+    margin-top: 90px;
+    line-height: 140px;
+}
+
+.estrofe6{
+    font-size:4.2em;
+    padding-left: 25px;
+    line-height: 140px;
+}
+.estrofe6 > p{
+    margin-bottom: 100px;
+}
+
+.estrofe7{
+    font-size:4.2em;
+    padding-left: 25px;
+    line-height: 140px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-family: verdana, sans-serif;
+}
+
